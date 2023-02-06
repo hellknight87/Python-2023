@@ -2,4 +2,5 @@
 
 import array as arr
 
-planets = ['Surya', 'Chandra', 'Mangal', 'Guru', 'Shukra' , 'Shani', 'Rahu', 'Ketu']
+planets = ['Surya', 'Chandra', 'Mangal', 'Guru', 'Shukra' , 'Shani', 'Rahu', 'Ketu', 'Neptune']
+

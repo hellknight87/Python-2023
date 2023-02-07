@@ -1,29 +1,17 @@
 #Grah aur unke vichaar
 
 #Importing the OS variables
-import os
+#import os
 # Clearing the screen
-os.system('clear')
+#os.system('clear')
 
-print ("This will print the planets and their constellations.")
-print ("The name of planets are : ")
-print ("Surya, Mangal, Guru, Budh, Shukra, Shani, Rahu, Ketu")
+#print ("This will print the planets and their constellations.")
+#print ("The name of planets are : ")
+#print ("Surya, Mangal, Guru, Budh, Shukra, Shani, Rahu, Ketu")
 
-# Defining the rashi
-rashi = {
-    1 : "Mesh",
-    2 : "Vrishabh",
-    3 : "Mithun",
-    4 : "Kark",
-    5 : "Singh",
-    6 : "Kanya",
-    7 : "Tula",
-    8 : "Vrishchik",
-    9 : "Dhanu",
-    10 : "Makar",
-    11 : "Kumbh",
-    12 : "Meen"
-}
+import rashi
+import navgrah
+import nakshtra
 
 # Defining grah and their rashi
 grah_rashi = {
@@ -76,8 +64,8 @@ nakshtra = {
     "Ketu" : "Ashwini, Magha, Mool"
 }
 
-x=str(input("Enter the graha name to get the information : "))
-print("Rashi \t:---> ", grah_rashi[x])
-print("Nakshtra :---> ", nakshtra[x])
-print("Uchch \t:---> ", uchch[x])
-print("Neech \t:---> ", neech[x])
+#x=str(input("Enter the graha name to get the information : "))
+#print("Rashi \t:---> ", grah_rashi[x])
+#print("Nakshtra :---> ", nakshtra[x])
+#print("Uchch \t:---> ", uchch[x])
+#print("Neech \t:---> ", neech[x])

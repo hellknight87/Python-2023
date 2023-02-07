@@ -1,4 +1,5 @@
-# This file will deal with rashis and their values
+# This file will deal with rashis
 
-import os
-os.system('clear')
+rashi_naam = ["Mesh" , "Vrishabh" , "Mithun" , "Kark" , "Singh", "Kanya" ,
+         "Tula" , "Vrishchik" , "Dhanu" , "Makar" , "Kumbh", "Meen"]
+
